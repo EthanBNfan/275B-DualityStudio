@@ -12,6 +12,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <style>
+            #body {
+                display: flex;
+            }
+            
+            #name {
+                height: auto;
+                padding-left: 20px;
+                margin-top: 20px;
+
+            }
+        </style>
     </head>
 
     <body>
@@ -68,22 +80,13 @@
         </nav>           
     </div>    
     <h1 class="my-4 font-weight-bold">Profile</h1>
-    <div id="body" class=continer-fluid>
+    <div id="body" class="continer-fluid">
+        <div class="img-fluid"><img src="imgs/User.png" width="150px" height="150px" alt="user pfp"></div>
+        <div id="name" class="text-wrap">
+        <h1>User_0</h1>
+        <p>User ID: 000000</p>
+        </div>
         
-        <div class="form-group ">
-          <label for="usr">Username/Email:</label>
-          <input type="text" class="form-control" id="usr">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd">
-        </div>
-        <br>
-        <div class="justify-content-center">
-        <a href="#"><button type="button" class="btn btn-outline-primary w-25">Log in</button></a>
-        <a href="register.html"><button type="button" class="btn btn-outline-primary w-25 ml-auto">Register</button></a>
-        </div>
-        <div><a href="password.html">Forgot password?</a></div>
     </div>
         <br>
         <br>
